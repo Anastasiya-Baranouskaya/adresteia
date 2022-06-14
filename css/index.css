@@ -70,6 +70,9 @@ h3 {
   padding-bottom: 37px;
   font-weight: 600;
   font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1920px;
 }
 .navigation {
   display: flex;
@@ -102,6 +105,9 @@ h3 {
   background-size: 815px, 1400px, cover;
   background-position-x: 1000px, 600px;
   background-position-y: 50px, -250px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1920px;
 }
 .hero {
   font-size: 24px;
@@ -160,8 +166,12 @@ h3 {
 }
 /* section about */
 .about {
+  position: relative;
   padding-top: 77px;
   padding-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1920px;
 }
 .about-position {
   display: flex;
@@ -208,7 +218,7 @@ h3 {
 /*  */
 .note-position {
   position: absolute;
-  top: 1420px;
+  top: 360px;
   left: 86px;
 }
 .note {
@@ -221,19 +231,19 @@ h3 {
 
 .polaroid-position {
   position: absolute;
-  top: 1420px;
+  top: 360px;
   left: 625px;
 }
 .polaroid {
   position: absolute;
-  top: 380px;
+  top: 350px;
   left: 30px;
   width: 236px;
 }
 
 .wrapp-position {
   position: absolute;
-  top: 1678px;
+  top: 600px;
   left: 1150px;
 }
 .about-wrapp {
@@ -241,19 +251,19 @@ h3 {
 }
 .wrapp {
   position: absolute;
-  top: -244px;
+  top: -200px;
   left: 30px;
   width: 345px;
 }
 .star-position {
   position: absolute;
-  top: 1514px;
+  top: 450px;
   left: 1600px;
 }
 .star {
   position: absolute;
-  top: 130px;
-  left: 40px;
+  top: 150px;
+  left: 34px;
   width: 257px;
 }
 /* section services */
@@ -262,7 +272,7 @@ h3 {
   border-radius: 50px;
   padding-top: 100px;
   padding-bottom: 100px;
-  max-width: 1820px;
+  width: 1920px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -369,6 +379,9 @@ h3 {
 .work {
   padding-top: 309px;
   padding-bottom: 134px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1920px;
 }
 .title-work {
   margin-bottom: 70px;
@@ -419,6 +432,9 @@ h3 {
   background-repeat: no-repeat;
   background-position-x: 569px, 569px;
   background-position-y: 305px, 305px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1920px;
 }
 .clients-div {
   display: flex;
@@ -485,6 +501,9 @@ h3 {
 .footer {
   padding-top: 94px;
   padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1920px;
 }
 .footer-div {
   display: flex;
