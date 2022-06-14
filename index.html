@@ -70,39 +70,34 @@
           <div class="about-position">
             <h2 class="title">Кто мы?</h2>
             <p class="about-text">О нас не пишут рейтинговые агентства и поисковые системы</p>
+          </div>
 
-            <div class="pins">
-              <img src="./img/pins.png" alt="pins" />
+          <img class="pins" src="./img/pins.png" alt="pins" />
+          <div class="about-list">
+            <div class="about-items note-position">
+              <img class="" src="./img/note.png" alt="note" />
+              <p class="text_position note">
+                <span style="color: var(--second-color)">1.</span> Работаем только по рекомендации от "своих"
+              </p>
             </div>
-            <div class="about-list">
-              <div class="about-items">
-                <img class="about-note" src="./img/note.png" alt="note" />
-
-                <p class="text_position">
-                  <span style="color: var(--second-color)">1.</span> Работаем только по рекомендации от "своих"
-                </p>
-              </div>
-              <div class="about-items">
-                <img class="about-polaroid" src="./img/polaroid.png" alt="polaroid" />
-
-                <p class="text_position">
-                  <span style="color: var(--second-color)">2.</span>Применяем агентскую сеть по всему миру
-                </p>
-              </div>
-              <div class="about-items">
-                <img class="about-wrapp" src="./img/wrapper.png" alt="wrapper" />
-
-                <p class="text_position">
-                  <span style="color: var(--second-color)">3.</span>Используем арсенал профессиональных технических
-                  средств
-                </p>
-              </div>
-              <div class="about-items">
-                <img class="about-star" src="./img/star.png" alt="star" />
-                <p class="text_position">
-                  <span style="color: var(--second-color)">4.</span>Считаем что репутация важнее денег
-                </p>
-              </div>
+            <div class="about-items polaroid-position">
+              <img class="" src="./img/polaroid.png" alt="polaroid" />
+              <p class="text_position polaroid">
+                <span style="color: var(--second-color)">2.</span>Применяем агентскую сеть по всему миру
+              </p>
+            </div>
+            <div class="about-items wrapp-position">
+              <img class="" src="./img/wrapper.png" alt="wrapper" />
+              <p class="text_position wrapp">
+                <span style="color: var(--second-color)">3.</span>Используем арсенал профессиональных технических
+                средств
+              </p>
+            </div>
+            <div class="about-items star-position">
+              <img class="" src="./img/star.png" alt="star" />
+              <p class="text_position star">
+                <span style="color: var(--second-color)">4.</span>Считаем что репутация важнее денег
+              </p>
             </div>
           </div>
         </div>
@@ -318,38 +313,72 @@
       <footer class="footer">
         <div class="container">
           <div class="footer-div">
-            <h2 class="title">Связаться с нами</h2>
-            <button type="button" class="more">
-              <svg width="24" height="24">
-                <use href="./img/svg/icons-sprite.svg#icon-arrow-up"></use>
-              </svg>
-            </button>
-          </div>
-          <div>
-            <form class="footer-form" name="signup_form" autocomplete="on" novalidate>
-              <label for="">Меня зовут</label>
-
-              <input class="footer-input" type="text" name="username" placeholder="Караникола Евгений" />
-
-              <label for="">Мой номер</label>
-
-              <input class="footer-input" type="tel" name="phone" placeholder="+7 (___) ___-____." />
-
-              <label for=""> Мой email</label>
-
-              <input class="footer-input" type="email" name="email" placeholder="example@gmail.com" />
-
-              <label for="" class="footer-checkbox">
-                <input type="checkbox" name="hobby" value="music" checked />
-                Согласие на обработку персональных данных
-              </label>
-
-              <button type="button" class="button">
-                Оформить заявку
-                <img src="./img/svg/Subtract.svg" width="34px" alt="plus" />
+            <h2 class="title footer-title">Связаться с нами</h2>
+            <div>
+              <button type="button" class="more">
+                <svg width="24" height="24">
+                  <use href="./img/svg/icons-sprite.svg#icon-arrow-up"></use>
+                </svg>
               </button>
-            </form>
+            </div>
           </div>
+
+          <form class="footer-form" name="signup_form" autocomplete="on" novalidate>
+            <label class="footer-label" for="input__name"
+              >Меня зовут
+
+              <input
+                class="footer-input footer-margin"
+                id="input__name"
+                type="text"
+                name="username"
+                placeholder="Караникола Евгений"
+              />
+            </label>
+            <label class="footer-label" for="input__tel"
+              >Мой номер
+
+              <input class="footer-input" id="input__tel" type="tel" name="phone" placeholder="+7 (___) ___-____." />
+            </label>
+            <br />
+            <label class="footer-label" for="input__email">
+              Мой email
+
+              <input class="footer-input" id="input__email" type="email" name="email" placeholder="example@gmail.com" />
+            </label>
+
+            <div class="checkbox">
+              <input class="footer__checkbox" type="checkbox" name="approval" id="chekbox" />
+              <label class="label__checkbox" for="chekbox">Согласие на обработку персональных данных</label>
+            </div>
+            <button class="button footer-button" type="button ">
+              Оформить заявку
+              <img style="margin-left: 84px" src="./img/svg/Subtract.svg" width="34px" alt="plus" />
+            </button>
+          </form>
+
+          <nav class="footer-nav">
+            <div class="navigation-div">
+              <a class="navigation-link" href="https://wa.me/" target="_blank">
+                <svg class="navigation-svg" width="24" height="24">
+                  <use href="./img/svg/icons-sprite.svg#icon-whatsapp"></use>
+                </svg>
+                whatsapp
+              </a>
+              <a class="navigation-link" href="https://telegram.me/" target="_blank">
+                <svg class="navigation-svg" width="24" height="24">
+                  <use href="./img/svg/icons-sprite.svg#icon-telegram"></use>
+                </svg>
+                telegram
+              </a>
+              <a class="navigation-link" style="text-decoration: underline" href="mailto:adrasteia@mail.com"
+                >adrasteia@mail.com</a
+              >
+            </div>
+            <a class="nav-text" href="./confidentiality.html" target="_parent">Политика конфиденциальности</a>
+            <a class="nav-text" href="/" target="_parent">Дизайн и разработка - Karanikola</a>
+            <p class="nav-text" style="text-decoration: none">© 2022</p>
+          </nav>
         </div>
       </footer>
     </main>
